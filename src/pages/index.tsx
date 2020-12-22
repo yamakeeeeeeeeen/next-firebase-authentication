@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 import Link from 'next/link';
-import { useUser } from '../utils/useUser';
+import { useUser } from '../utils/auth/useUser';
 
 const fetcher = (url, token) =>
   fetch(url, {

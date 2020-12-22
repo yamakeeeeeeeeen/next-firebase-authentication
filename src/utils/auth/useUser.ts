@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import initFirebase from './initFirebase';
-import { removeUserCookie, setUserCookie, getUserFromCookie } from './userCookies';
+import { getUserFromCookie, removeUserCookie, setUserCookie } from './userCookies';
 import { mapUserData } from './mapUserData';
 
 initFirebase();
